@@ -1,12 +1,10 @@
 import React from 'react'
-import ToDo from './components/ToDo/ToDo'
-import EjemploDeMap from './components/EjemploDeMap/EjemploDeMap'
+import TodoView from './components/TodoView/TodoView'
 
 const App = () => {
   return (
     <>
-    <ToDo/>
-    {/* <EjemploDeMap/> */}
+    <TodoView/>
     </>
   )
 }
